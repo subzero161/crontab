@@ -25,7 +25,7 @@ So repo should contain two files:
 
 #How to install and perform cronjob
 
-#Step 2:Install and log into VM/terminal
+#Step 1:Install and log into VM/terminal
 
 #Step 2: Update OS
 sudo apt-get update
