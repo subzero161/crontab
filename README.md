@@ -45,10 +45,15 @@ crontab -e
 Scroll to the bottom of the page and insert
 
 For once a day
+
 0 0 * * * usr/bin/python3 /crontab/cron_app.py > log.txt 2>&1 &
+
 At 10pm every sunday
+
 0 22 * * SUN usr/bin/python3 /crontab/cron_app.py > log.txt 2>&1 &
+
 At very quarter
+
 0 0 1 */3 * usr/bin/python3 /crontab/cron_app.py > log.txt 2>&1 &
 
 #Step 7: Save and exit the file
