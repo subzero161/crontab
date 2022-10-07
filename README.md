@@ -41,7 +41,9 @@ python3
 #Step 5: Change directory to the github repo to find directory information and file presence 
 
 #Step 6: From that directory, run:
+
 crontab -e
+
 Scroll to the bottom of the page and insert
 
 For once a day
